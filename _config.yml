@@ -14,7 +14,7 @@ author: Michael R May
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Research: "aboutme"
+  Research:
   Publications:
   Code:
 
