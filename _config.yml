@@ -12,10 +12,9 @@ title: "Michael R May: Statistical Phylogeneticist"
 author: Michael R May
 
 # --- List of links in the navigation bar --- #
-
 navbar-links:
   About Me:
-  Research:
+  Research: "pages/research"
   Publications:
   Code:
 
