@@ -14,7 +14,7 @@ Failure to accommodate diversification-rate variation may therefore cause us to 
 To tackle this problem, I developed a Bayesian method, CoMET, that allows us to robustly infer the impact of mass-extinction events against a background of variation in rates of speciation and extinction.
 
 <figure>
-	<img src="../assets/img/mass_extinction_time.jpg" alt="mass-extinction events under CoMET" style="width:100%"/>
+	<img src="../assets/img/mass_extinction_time.jpg" alt="mass-extinction events under CoMET" style="width:100%">
 	<figcaption>Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS.</figcaption>
 </figure>
 
