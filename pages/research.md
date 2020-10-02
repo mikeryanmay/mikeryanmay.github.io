@@ -13,7 +13,9 @@ However, the signature of mass-extinction events on molecular phylogenies can be
 Failure to accommodate diversification-rate variation may therefore cause us to make errors in inferring the number, timing, and magnitude of mass-extinction events.
 To tackle this problem, I developed a Bayesian method, CoMET, that allows us to robustly infer the impact of mass-extinction events against a background of variation in rates of speciation and extinction.
 
-![mass-extinction under CoMET](assets/img/mass_extinction_time.jpg)
+<!-- ![mass-extinction under CoMET]() -->
+
+<img src="assets/img/mass_extinction_time.jpg" alt="mass-extinction under CoMET" class="inline"/>
 
 # Character evolution
 
