@@ -16,7 +16,7 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 <!-- {% include image.html url="http://github.com/mikeryanmay/website/assets/img/mass_extinction_time.jpg" description="Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS." %} -->
 
 <figure>
-	<img src="https://github.com/mikeryanmay/website/blob/assets/img/mass_extinction_time.jpg" alt="mass-extinction events under CoMET" style="width:100%"/>
+	<img src="https://github.com/mikeryanmay/website/blob/master/assets/img/mass_extinction_time.jpg" alt="mass-extinction events under CoMET" style="width:100%"/>
 	<figcaption>Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS.</figcaption>
 </figure>
 
