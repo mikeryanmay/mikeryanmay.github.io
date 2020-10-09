@@ -20,8 +20,10 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 	<figcaption>Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS.</figcaption>
 </figure> -->
 
-![mass-extinction events under CoMET](https://github.com/mikeryanmay/website/blob/master/assets/img/mass_extinction_time.jpg)
-*Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS.*
+<img src="https://github.com/mikeryanmay/website/blob/master/assets/img/mass_extinction_time.jpg" alt="hi" class="inline"/>
+
+<!-- ![mass-extinction events under CoMET](https://github.com/mikeryanmay/website/blob/master/assets/img/mass_extinction_time.jpg)
+*Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS.* -->
 
 # Character evolution
 
