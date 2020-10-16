@@ -15,19 +15,50 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 
 {% include image.html url="/assets/img/mass_extinction_time.jpg" description="Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS." %}
 
-<!-- <figure>
-	<img src="https://github.com/mikeryanmay/website/blob/master/assets/img/mass_extinction_time.jpg" alt="mass-extinction events under CoMET" style="width:100%"/>
-	<figcaption>Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS.</figcaption>
-</figure> -->
+#### Selected publications on lineage diversification
 
-<!-- <img src="/assets/img/mass_extinction_time.jpg" alt="hi" class="inline"/> -->
+{% include citation.html 
+	authors = "<b>May, M. R.</b>, S. Höhna, and B. R. Moore"
+	title   = "A Bayesian approach for detecting the impact of mass-extinction events on molecular phylogenies when rates of lineage diversification may vary"
+	journal = "Methods in Ecology and Evolution"
+	volume  = "7"
+	issue   = "8"
+	pages   = "947–959"
+	year    = "2016"
+%}
 
-<!-- ![mass-extinction events under CoMET](/assets/img/mass_extinction_time.jpg)
-**Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS.** -->
+{% include citation.html 
+	authors = "<b>May, M. R.</b> and B. R. Moore"
+	title   = "How well can we detect lineage-specific diversification-rate shifts? A simulation study of sequential AIC methods"
+	journal = "Systematic Biology"
+	volume  = "6"
+	issue   = "65"
+	pages   = "1076–1084"
+	year    = "2016"
+%}
 
-<!-- ![mass-extinction events under CoMET](https://github.com/mikeryanmay/website/blob/master/assets/img/mass_extinction_time.jpg)
-*Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS.* -->
+{% include citation.html 
+	authors = "Moore, B. R., S. Höhna, <b>M. R. May</b>, B. Rannala and J. P. Huelsenbeck"
+	title   = "Critically evaluating the theory and performance of Bayesian analysis of macroevolutionary mixtures"
+	journal = "Proceedings of the National Academy of Sciences"
+	volume  = "34"
+	issue   = "113"
+	pages   = "9569–9574"
+	year    = "2016"
+%}
+
+{% include citation.html 
+	authors = "Höhna, S., <b>M. R. May</b>, and B. R. Moore"
+	title   = "TESS: an R package for efficiently simulating phylogenetic trees and performing Bayesian inference of lineage diversification rates"
+	journal = "Bioinformatics"
+	volume  = "5"
+	issue   = "32"
+	pages   = "789–791"
+	year    = "2015"
+%}
 
 # Character evolution
+
+
 
 # Total-evidence dating
