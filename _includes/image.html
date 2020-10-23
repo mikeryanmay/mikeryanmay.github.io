@@ -1,4 +1,8 @@
-<figure class="image">
-  <img src="{{ include.url | relative_url }}" alt="{{ include.description }}">
-  <figcaption><em>{{ include.description }}</em></figcaption>
+<figure class="image" style="display: table;">
+  <img src="{{ include.url | relative_url }}"
+  	   alt="{{ include.description }}" 
+	   width="{{ include.dim | default: 100% }}"
+	   height="{{ include.dim | default: 100% }}"
+	   style="display: block; margin: auto">
+  <figcaption style="display: table-caption; caption-side: bottom; font-style: italic; font-size: smaller">{{ include.description }}</figcaption>
 </figure>
