@@ -3,8 +3,35 @@ layout: page
 title: Research
 ---
 
-I'm a statistical phylogeneticist, primarily focused on developing Bayesian methods to infer complex "macroevolutionary" processes from phylogenetic data.
-Currently, I am exploring the impact of model specification on inferences of time-calibrated phylogenies using total-evidence dating.
+# Total-evidence dating
+
+Total-evidence dating is an emerging approach for estimating time-calibrated phylogenies for fossil and living taxa from combined molecular and morphological datasets (Ronquist _et al._ 2011, Zhang _et al._ 2016).
+While this framework offer many advantages compared traditional methods for calibrating phylogenies (_i.e._, node dating), it requires us to specify a complex hierarchical model that describes how morphological characters evolve, how the tree evolves, and how the extinct and extant taxa are collected.
+The relative impact of these modeling choices in empirical studies is still not well understood.
+Together with my colleagues, I explored the impact of model specification on total-evidence-based divergence-time estimates in the marattialean ferns over a large model space, showing that our assumptions about the lineage diversification process (the tree model) have a much larger impact on divergence times than do our assumptions about how morphological characters evolve.
+ 
+{% include image.html 
+	url="/assets/img/figure_3.jpg" 
+	description="Lineage-through-time curves (the number of lineages in the tree over time) are similar among morphological transition (relative rates of change among states, left) and morphological clock (relative rates among lineages, middle) model, but very different among tree models (right)."
+	dim="90%"
+%}
+
+Our study of the marattialean ferns revealed a counterintuitive result: despite the fact that most of our fossils come from the Pennsylvanian period, allowing fossilization rates to vary over time always reduced model fit.
+In followup work, I used Bayesian theory and simulation to show that this was due to 
+
+#### Selected publications on total-evidence dating
+
+{% include citation.html
+	authors = "<b>May, M. R.</b>, D.L. Contreras, M. A. Sundue, N. S. Nagalingum, C. V. Looy,  and C. J. Rothfels"
+	title   = "Inferring the Total-Evidence Timescale of Marattialean Fern Evolution in the Face of Model Sensitivity"
+	journal = "Systematic Biology"
+	doi     = "https://doi.org/10.1093/sysbio/syab020"
+	youtube = "https://youtu.be/5H_u9bjn064"
+	year    = "2021"
+%}
+
+<!-- https://youtu.be/5H_u9bjn064 -->
+<!-- https://youtu.be/SWldXeWet68 -->
 
 # Lineage diversification
 
@@ -29,6 +56,7 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 	issue   = "8"
 	pages   = "947–959"
 	year    = "2016"
+	doi     = "https://doi.org/10.1111/2041-210X.12563"
 %}
 
 {% include citation.html
@@ -39,6 +67,7 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 	issue   = "65"
 	pages   = "1076–1084"
 	year    = "2016"
+	doi     = "https://doi.org/10.1093/sysbio/syw026"
 %}
 
 {% include citation.html
@@ -49,6 +78,7 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 	issue   = "113"
 	pages   = "9569–9574"
 	year    = "2016"
+	doi     = "https://doi.org/10.1073/pnas.1518659113"
 %}
 
 {% include citation.html
@@ -59,6 +89,7 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 	issue   = "32"
 	pages   = "789–791"
 	year    = "2015"
+	doi     = "https://doi.org/10.1093/bioinformatics/btv651"
 %}
 
 # Character evolution
@@ -84,6 +115,5 @@ I implemented this method, [MuSSCRat, in the Bayesian phylogenetic software RevB
 	issue   = "3"
 	pages   = "530–544"
 	year    = "2020"
+	doi     = "https://doi.org/10.1093/sysbio/syz069"
 %}
-
-# Total-evidence dating

@@ -13,10 +13,10 @@ author: Michael R May
 
 # --- List of links in the navigation bar --- #
 navbar-links:
-  About Me:
+  About Me: "pages/aboutme"
   Research: "pages/research"
   Publications:
-  Code:
+  Videos:
 
 # --- Logo --- #
 
