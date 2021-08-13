@@ -31,16 +31,6 @@ This exploration allows us to predict the magnitude of the error, and to propose
 #### Selected publications on total-evidence dating
 
 {% include citation.html
-	authors = "<b>May, M. R.</b>, D.L. Contreras, M. A. Sundue, N. S. Nagalingum, C. V. Looy,  and C. J. Rothfels"
-	title   = "Inferring the Total-Evidence Timescale of Marattialean Fern Evolution in the Face of Model Sensitivity"
-	journal = "Systematic Biology"
-	doi     = "https://doi.org/10.1093/sysbio/syab020"
-	youtube = "https://youtu.be/5H_u9bjn064"
-	inpress = "true"
-	year    = "2021"
-%}
-
-{% include citation.html
 	authors = "<b>May, M. R.</b> and C. J. Rothfels"
 	title   = "Mistreating birth-death models as priors in phylogenetic analysis compromises our ability to compare models"
 	journal = "bioRxiv"
@@ -50,10 +40,20 @@ This exploration allows us to predict the magnitude of the error, and to propose
 	year    = "2021"
 %}
 
+{% include citation.html
+	authors = "<b>May, M. R.</b>, D.L. Contreras, M. A. Sundue, N. S. Nagalingum, C. V. Looy,  and C. J. Rothfels"
+	title   = "Inferring the Total-Evidence Timescale of Marattialean Fern Evolution in the Face of Model Sensitivity"
+	journal = "Systematic Biology"
+	doi     = "https://doi.org/10.1093/sysbio/syab020"
+	youtube = "https://youtu.be/5H_u9bjn064"
+	inpress = "true"
+	year    = "2021"
+%}
+
 # Lineage diversification
 
 Rates of lineage diversification (speciation and extinction) change over time and across the branches of the tree for many reasons.
-In ongoing work, I'm developing a Bayesian method for inferring how rates of diversification vary among lineages in a trait- and time-agnostic framework, <i>i.e.</i>, 
+In ongoing work, I'm developing a Bayesian method for inferring how rates of diversification vary among lineages in a trait- and time-agnostic framework. The method allows diversification-rate shifts along extinct branches (and is therefore a statistically principled alternative to BAMM), and allows rate shifts to occur independent of speciation events (in contrast to CLadS, which assumes rate shifts occur at speciation events).
 
 Mass-extinction events have profound consequences on the accumulation of lineages through time.
 However, the signature of mass-extinction events on molecular phylogenies can be difficult to distinguish from other processes that may be biologically common; for example, increases in net-diversification rates (speciation minus extinction) can result in lineage-accumulation curves that are similar to those caused by mass-extinction events.
@@ -67,6 +67,15 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 %}
 
 #### Selected publications on lineage diversification
+
+{% include citation.html
+	authors = "Höhna, S., W. A. Freyman, Z. Nolen, J. P. Huelsenbeck, <b>M. R. May</b>, and B. R. Moore"
+	title   = "A Bayesian approach for estimating branch-specific speciation and extinction rates"
+	journal = "bioRxiv"
+	biorxiv = "true"
+	doi     = "https://www.biorxiv.org/content/10.1101/2021.07.12.452074v1"
+	year    = "2021"
+%}
 
 {% include citation.html
 	authors = "<b>May, M. R.</b>, S. Höhna, and B. R. Moore"
@@ -140,4 +149,21 @@ I implemented this method, [MuSSCRat, in the Bayesian phylogenetic software RevB
 
 # RevBayes
 
-Most of my current work involves implementing methods in RevBayes.
+I'm a developer on the RevBayes, a flexible platform for Bayesian (mostly) phylogenetic analysis.
+Many of the methods I describe above are implemented in RevBayes.
+I contribute to and maintain many RevBayes [tutorials](https://revbayes.github.io/tutorials/), especially for models of [continuous-character evolution](https://revbayes.github.io/tutorials/cont_traits/cont_trait_intro.html).
+
+<img align="right" src="https://raw.githubusercontent.com/cmt2/RevGadgets/master/inst/hex_sticker.png" alt="Inspector RevGadget" width="250"/>
+
+I'm also (along with [Carrie Tribble](https://carrietribble.weebly.com/)) a lead developer on RevGadgets, an R package for visualizing and summarizing RevBayes output. Check it out on [GitHub](https://github.com/cmt2/RevGadgets)!
+
+#### Selected publications on RevBayes
+
+{% include citation.html
+	authors = "Tribble, C. M., W. A. Freyman, M. J. Landis, J. Y. Lim, J. Barido-Sottani, B. T. Kopperud, S. Höhna and <b>M. R. May</b>"
+	title   = "RevGadgets: an R Package for visualizing Bayesian phylogenetic analyses from RevBayes"
+	journal = "bioRxiv"
+	biorxiv = "true"
+	doi     = "https://www.biorxiv.org/content/10.1101/2021.05.10.443470v1"
+	year    = "2021"
+%}

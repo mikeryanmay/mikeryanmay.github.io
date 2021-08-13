@@ -16,7 +16,7 @@ navbar-links:
   # About Me: "pages/aboutme"
   Research: "pages/research"
   Publications:
-  Videos:
+  Videos: "pages/videos"
 
 # --- Logo --- #
 
@@ -39,7 +39,7 @@ round-avatar: true
 social-network-links:
   email: "mikeryanmay@gmail.com"
   # facebook: deanattali
-  # github: daattali
+  github: mikeryanmay
   # twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
