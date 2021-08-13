@@ -13,11 +13,20 @@ Together with my colleagues, I explored the impact of model specification on tot
 {% include image.html 
 	url="/assets/img/figure_3.jpg" 
 	description="Lineage-through-time curves (the number of lineages in the tree over time) are similar among morphological transition (relative rates of change among states, left) and morphological clock (relative rates among lineages, middle) model, but very different among tree models (right)."
-	dim="90%"
+	dim="100%"
 %}
 
-Our study of the marattialean ferns revealed a counterintuitive result: despite the fact that most of our fossils come from the Pennsylvanian period, allowing fossilization rates to vary over time always reduced model fit.
-In followup work, I used Bayesian theory and simulation to show that this was due to 
+Our study of the marattialean ferns demonstrates that the choice of tree prior can have a large impact on divergence-time estimates, so careful model choice is an important aspect of total-evidence dating.
+However, our study also a counterintuitive result: despite the fact that most of our fossils come from the Pennsylvanian period, allowing fossilization rates to vary over time always reduced model fit.
+In followup work, I used Bayesian theory and simulation to show that this was due to treating birth-death models as priors; because these models have parameters that produce <i>observations</i> (fossils and extant species), some of their probability should be associated with the likelihood of the model.
+While it has no impact on parameter estimates for a given model, failing to treat the probability of the samples as part of the likelihood function compromises our ability to compare among tree models.
+This exploration allows us to 
+
+{% include image.html 
+	url="/assets/img/figure_1.png" 
+	description="Left) Phylogenetic processes produce trees with character changes (colors) and samples (labeled dots). Middle) We collect taxon samples (grey fiddleheads) before collecting character data; at this stage, we could use these samples as data to infer parameters of a diversification process. Right) Finally, we score the samples for character data (typically so that we can estimate a phylogeny). "
+	dim="100%"
+%}
 
 #### Selected publications on total-evidence dating
 
@@ -43,7 +52,7 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 {% include image.html 
 	url="/assets/img/mass_extinction_time.jpg" 
 	description="Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS."
-	dim="90%"
+	dim="100%"
 %}
 
 #### Selected publications on lineage diversification
