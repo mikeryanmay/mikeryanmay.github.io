@@ -1,8 +1,12 @@
 <p style="margin-left:4%;">
-	{% if include.volume %}
-		{{include.authors}}, {{include.year}}: {{include.title}}. <i>{{include.journal}}</i>, {{include.volume}}({{include.issue}}), {{include.pages}}.
-	{% else %}
+	{% if include.inpress %}
 		{{include.authors}}, {{include.year}}: {{include.title}}. <i>{{include.journal}}</i>, in press.		
+	{% else %}
+		{% if include.biorxiv %}
+			{{include.authors}}, {{include.year}}: {{include.title}}. <i>{{include.journal}}</i>.	
+		{% else %}
+			{{include.authors}}, {{include.year}}: {{include.title}}. <i>{{include.journal}}</i>, {{include.volume}}({{include.issue}}), {{include.pages}}.		
+		{% endif %}
 	{% endif %}
 	{% if include.doi %}
 	   <a href="{{include.doi}}">link.</a>

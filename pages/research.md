@@ -20,11 +20,11 @@ Our study of the marattialean ferns demonstrates that the choice of tree prior c
 However, our study also a counterintuitive result: despite the fact that most of our fossils come from the Pennsylvanian period, allowing fossilization rates to vary over time always reduced model fit.
 In followup work, I used Bayesian theory and simulation to show that this was due to treating birth-death models as priors; because these models have parameters that produce <i>observations</i> (fossils and extant species), some of their probability should be associated with the likelihood of the model.
 While it has no impact on parameter estimates for a given model, failing to treat the probability of the samples as part of the likelihood function compromises our ability to compare among tree models.
-This exploration allows us to 
+This exploration allows us to predict the magnitude of the error, and to propose remedies (some more practical than others).
 
 {% include image.html 
 	url="/assets/img/figure_1.png" 
-	description="Left) Phylogenetic processes produce trees with character changes (colors) and samples (labeled dots). Middle) We collect taxon samples (grey fiddleheads) before collecting character data; at this stage, we could use these samples as data to infer parameters of a diversification process. Right) Finally, we score the samples for character data (typically so that we can estimate a phylogeny). "
+	description="Left) Phylogenetic processes produce trees with character changes (colors) and samples (labeled dots). Middle) We collect taxon samples (grey fiddleheads) before collecting character data; at this stage, we could use these samples as data to infer parameters of a diversification process. Right) Finally, we score the samples for character data. Traditionally, phylogeneticists treat the probability of the character data (right) as part of the likelihood function, but not the probability of the taxon data (middle)."
 	dim="100%"
 %}
 
@@ -36,13 +36,24 @@ This exploration allows us to
 	journal = "Systematic Biology"
 	doi     = "https://doi.org/10.1093/sysbio/syab020"
 	youtube = "https://youtu.be/5H_u9bjn064"
+	inpress = "true"
 	year    = "2021"
 %}
 
-<!-- https://youtu.be/5H_u9bjn064 -->
-<!-- https://youtu.be/SWldXeWet68 -->
+{% include citation.html
+	authors = "<b>May, M. R.</b> and C. J. Rothfels"
+	title   = "Mistreating birth-death models as priors in phylogenetic analysis compromises our ability to compare models"
+	journal = "bioRxiv"
+	biorxiv = "true"
+	doi     = "https://www.biorxiv.org/content/10.1101/2021.07.12.452074v1"
+	youtube = "https://youtu.be/SWldXeWet68"
+	year    = "2021"
+%}
 
 # Lineage diversification
+
+Rates of lineage diversification (speciation and extinction) change over time and across the branches of the tree for many reasons.
+In ongoing work, I'm developing a Bayesian method for inferring how rates of diversification vary among lineages in a trait- and time-agnostic framework, <i>i.e.</i>, 
 
 Mass-extinction events have profound consequences on the accumulation of lineages through time.
 However, the signature of mass-extinction events on molecular phylogenies can be difficult to distinguish from other processes that may be biologically common; for example, increases in net-diversification rates (speciation minus extinction) can result in lineage-accumulation curves that are similar to those caused by mass-extinction events.
@@ -126,3 +137,7 @@ I implemented this method, [MuSSCRat, in the Bayesian phylogenetic software RevB
 	year    = "2020"
 	doi     = "https://doi.org/10.1093/sysbio/syz069"
 %}
+
+# RevBayes
+
+Most of my current work involves implementing methods in RevBayes.
