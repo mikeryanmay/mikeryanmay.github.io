@@ -54,7 +54,7 @@ This exploration allows us to predict the magnitude of the error, and to propose
 # [Lineage diversification](#lineage-diversification)
 
 Rates of lineage diversification (speciation and extinction) change over time and across the branches of the tree for many reasons.
-In ongoing work, I'm developing a Bayesian method for inferring how rates of diversification vary among lineages in a trait- and time-agnostic framework. The method allows diversification-rate shifts along extinct branches (and is therefore a statistically principled alternative to BAMM), and allows rate shifts to occur independent of speciation events (in contrast to CLadS, which assumes rate shifts occur at speciation events).
+In ongoing work, I'm developing a Bayesian method for inferring how rates of diversification vary among lineages in a trait- and time-agnostic framework. The method allows diversification-rate shifts along extinct branches (and is therefore a statistically principled alternative to BAMM), and allows rate shifts to occur independent of speciation events (in contrast to CLaDS, which assumes rate shifts occur at speciation events).
 
 Mass-extinction events have profound consequences on the accumulation of lineages through time.
 However, the signature of mass-extinction events on molecular phylogenies can be difficult to distinguish from other processes that may be biologically common; for example, increases in net-diversification rates (speciation minus extinction) can result in lineage-accumulation curves that are similar to those caused by mass-extinction events.
