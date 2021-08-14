@@ -1,5 +1,11 @@
-.main-content {
+/* .main-content {
   padding-bottom: 3.125rem;
+} */
+
+@page {
+  size: 210mm 297mm; 
+  /* Chrome sets own margins, we change these printer settings */
+  margin: 27mm 16mm 27mm 16mm; 
 }
 
 footer.footer-min {

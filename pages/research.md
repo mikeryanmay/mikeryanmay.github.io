@@ -4,7 +4,6 @@ title: Research
 ---
 
 # [Total-evidence dating](#total-evidence-dating)
----
 
 Total-evidence dating is an emerging approach for estimating time-calibrated phylogenies for fossil and living taxa from combined molecular and morphological datasets (Ronquist _et al._ 2011, Zhang _et al._ 2016).
 While this framework offer many advantages compared traditional methods for calibrating phylogenies (_i.e._, node dating), it requires us to specify a complex hierarchical model that describes how morphological characters evolve, how the tree evolves, and how the extinct and extant taxa are collected.
@@ -53,7 +52,6 @@ This exploration allows us to predict the magnitude of the error, and to propose
 </ul>
 
 # [Lineage diversification](#lineage-diversification)
----
 
 Rates of lineage diversification (speciation and extinction) change over time and across the branches of the tree for many reasons.
 In ongoing work, I'm developing a Bayesian method for inferring how rates of diversification vary among lineages in a trait- and time-agnostic framework. The method allows diversification-rate shifts along extinct branches (and is therefore a statistically principled alternative to BAMM), and allows rate shifts to occur independent of speciation events (in contrast to CLadS, which assumes rate shifts occur at speciation events).
@@ -113,7 +111,6 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 </ul>
 
 # [Character evolution](#character-evolution)
----
 
 Many macroevolutionary studies seek to understand how rates of trait evolution depend on the state of some other variable; for example, have reef-dwelling fish—owing to increased habitat complexity and ecological opportunity—experienced increased rates of morphological evolution relative to their non-reef-dwelling relatives? 
 However, we expect rates of trait evolution to vary for many reasons; even within clades that are entirely reef-dwelling, we can easily imagine that rates of continuous-trait evolution may vary owing to a variety of other ecological and life-history factors.
@@ -142,7 +139,6 @@ I implemented this method, [MuSSCRat, in the Bayesian phylogenetic software RevB
 </ul>
 
 # [Software development](#software-development)
----
 
 I'm a developer on the RevBayes, a flexible platform for Bayesian (mostly) phylogenetic analysis.
 Many of the methods I describe above are implemented in RevBayes.

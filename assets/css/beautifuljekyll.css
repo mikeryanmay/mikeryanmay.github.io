@@ -29,21 +29,27 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
+  color: {{ site.header-col | default: "#404040" }};
 }
 h1 {
   font-size: 2.25rem;
+  color: {{ site.header-col-1 | default: site.header-col }};
 }
 h2 {
   font-size: 1.875rem;
+  color: {{ site.header-col-2 | default: site.header-col }};
 }
 h3 {
   font-size: 1.5rem;
+  color: {{ site.header-col-3 | default: site.header-col }};
 }
 h4 {
   font-size: 1.125rem;
+  color: {{ site.header-col-4 | default: site.header-col }};
 }
 h1, h2, h3, h4 {
   margin-top: 1.25rem;
+  color: {{ site.header-col-5 | default: site.header-col }};
 }
 a {
   color: {{ site.link-col | default: "#008AFF" }};
@@ -237,12 +243,12 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom .nav-item.dropdown:hover {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.3);
   }
 }
 
 .navbar-custom .nav-item.dropdown.show {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu {

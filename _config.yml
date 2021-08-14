@@ -98,15 +98,16 @@ feed_show_tags: true
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+navbar-text-col: "#3b79ff"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
+header-col-1: "#3b79ff"
 link-col: "#008AFF"
-hover-col: "#0085A1"
+hover-col: "#ffbc47"
 footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+footer-text-col: "#3b79ff"
+footer-link-col: "#3b79ff"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -227,7 +228,6 @@ exclude:
 plugins:
   # - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-datapage-generator
-
+  
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
