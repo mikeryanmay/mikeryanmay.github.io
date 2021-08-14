@@ -1,11 +1,11 @@
-<p style="margin-left:4%;">
+<div>
 	{% if include.inpress %}
-		{{include.authors}}, {{include.year}}: {{include.title}}. <i>{{include.journal}}</i>, in press.		
+		{{include.authors}} ({{include.year}}). {{include.title}}. <i>{{include.journal}}</i>, in press.		
 	{% else %}
 		{% if include.biorxiv %}
-			{{include.authors}}, {{include.year}}: {{include.title}}. <i>{{include.journal}}</i>.	
+			{{include.authors}} ({{include.year}}). {{include.title}}. <i>{{include.journal}}</i>.	
 		{% else %}
-			{{include.authors}}, {{include.year}}: {{include.title}}. <i>{{include.journal}}</i>, {{include.volume}}({{include.issue}}), {{include.pages}}.		
+			{{include.authors}} ({{include.year}}). {{include.title}}. <i>{{include.journal}}</i>, {{include.volume}}({{include.issue}}), {{include.pages}}.		
 		{% endif %}
 	{% endif %}
 	{% if include.doi %}
@@ -16,4 +16,4 @@
 	   <a href="{{include.youtube}}"><img src="https://raw.githubusercontent.com/mikeryanmay/website/792d47671ce22dcf4d79de65c8f3e733ee94cc70/assets/img/YouTube_icon.svg" alt="HTML tutorial" style="width:24px;height:24px;"></a>
 	{% else %}
 	{% endif %}
-</p>
+</div>
