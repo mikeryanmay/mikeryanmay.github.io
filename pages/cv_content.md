@@ -20,24 +20,23 @@ Center for Population Biology, University of California, Davis
 
 ## Teaching Experience
 
-- Phylogeny and Macroevolution (EVE 103, UC Davis). Teaching assistant. 2012, 2016, 2018
-	- Redesigned EVE 103L to focus on statistical inference and programming for biologists
-	- Lead laboratory sessions to provide students with hands-on experience with applied statistical phylogenetic
-	- (2016) Awarded Outstanding Graduate Student Teaching Award
-- Bodega Applied Phylogenetics Workshop. Organizer, teaching assistant, and instructor. 2013–present
-	- Organizer: handled student applications and workshop logistics
-	- Teaching assistant: assisted instructors with tutorials, and provided support for student projects
-	- Instructor: lead lectures and tutorials on phylogenetic methods for studying lineage diversification
-- Madrid Phylogenetics Workshop. Instructor, 2018–present
-	- Lead lectures and tutorials on phylogenetic methods for studying lineage diversification and character evolution
 - Stay-At-Home RevBayes Workshop. Instructor, 2021.
+- Madrid Phylogenetics Workshop. Instructor, 2018–present
+- Bodega Applied Phylogenetics Workshop. Organizer, teaching assistant, and instructor. 2013–present
+- Phylogeny and Macroevolution (EVE 103, UC Davis). Teaching assistant. 2012, 2016, 2018.
+	- (2016) Awarded Outstanding Graduate Student Teaching Award.
 
-## Presentations
+## Invited Presentations
 
 <ol reversed>
 	<li>
 		<b>May, M. R.</b> and Rothfels, C. J. (2021). Mistreating birth-death models as priors in phylogenetic analysis compromises our ability to compare models. Botanical Society of America Conference.
 	</li>
+</ol>
+
+## Presentations
+
+<ol reversed>
 	<li>
 		<b>May, M. R.</b>, Contreras, D. L., Sundue, M. A., Nagalingum, N. S., Looy, C. V., & Rothfels, C. J. (2021). Inferring the Total-Evidence Timescale of Marattialean Fern Evolution in the Face of Model Sensitivity. Joint Annual Evolution Meeting.
 	</li>
@@ -48,7 +47,13 @@ Center for Population Biology, University of California, Davis
 		<b>May, M. R.</b>, Moore, B. R., Höhna, S., Huelsenbeck, J. P., & Rannala, B. (2016). Towards a correct Bayesian method for inferring lineage-specific rates of speciation and extinction. Joint Annual Evolution Meeting; Austin, Texas.
 	</li>
 	<li>
+		<b>May, M. R.</b> (2016). Problems and solutions for inferring lineage-specific rates of speciation and, extinction. Center for Population Biology seminar series; UC Davis.	
+	</li>
+	<li>
 		<b>May, M. R.</b> & Moore, B. R. (2014). Inferring lineage-specific rates of continuous-trait evolution. Botanical Society of America Conference; Boise, Idaho.
+	</li>
+	<li>
+		<b>May, M. R.</b> (2013). Mostly Bayesian methods for inferring heterogeneous evolutionary processes across phylogenies. Center for Population Biology seminar series; UC Davis.	
 	</li>
 	<li>
 		<b>May, M. R.</b> & Moore, B. R., (2013). Assessing the reliability of MEDUSA using simulation. Joint Annual Evolution Meeting; Snowbird, Utah.
