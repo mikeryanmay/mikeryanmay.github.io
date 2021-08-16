@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Videos
+title: Talks
 ---
 
 #### Evolution 2021, talking about model sensitivity and total-evidence dating:

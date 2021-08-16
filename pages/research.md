@@ -140,7 +140,7 @@ I implemented this method, [MuSSCRat, in the Bayesian phylogenetic software RevB
 
 # [Software development](#software-development)
 
-I'm a developer on RevBayes, a flexible platform for Bayesian (mostly) phylogenetic analysis.
+I'm a developer on the RevBayes, a flexible platform for Bayesian (mostly) phylogenetic analysis.
 Many of the methods I describe above are implemented in RevBayes.
 I contribute to and maintain many RevBayes [tutorials](https://revbayes.github.io/tutorials/), especially for models of [continuous-character evolution](https://revbayes.github.io/tutorials/cont_traits/cont_trait_intro.html).
 

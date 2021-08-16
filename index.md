@@ -8,4 +8,4 @@ I use a combination of theory, computation, simulation, and data analysis to und
 
 Please check out my [research page](/pages/research) for more details about what I do!
 
-Or watch recordings of my [recent conference talks](/pages/videos).
+Or watch recordings of my [recent conference talks](/pages/talks).
