@@ -21,7 +21,7 @@ navbar-links:
     - Software: "pages/research/#software-development"
   CV: "pages/cv"
   Code: "pages/code"
-  Talks: "pages/talks"
+  # Talks: "pages/talks"
 
 # --- Logo --- #
 

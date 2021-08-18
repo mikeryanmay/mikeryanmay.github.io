@@ -8,9 +8,9 @@ Center for Population Biology, University of California, Davis
 
 ## Education and Appointments
 
-- 2020–present. UC Davis. Postdoctoral scholar. _Advisor: Dr. Bruce Rannala_
-- 2019–present. UC Berkeley. Postdoctoral scholar. _Advisor: Dr. Carl J. Rothfels_
-- 2011–2019. UC Davis. PhD, Population Biology. _Advisor: Dr. Brian Moore_
+- 2020–present. UC Davis. Postdoctoral scholar.
+- 2019–present. UC Berkeley. Postdoctoral scholar.
+- 2011–2019. UC Davis. PhD, Population Biology.
 - 2008–2011. UC Davis. B.S., (Highest Honors), Evolution, Ecology and Biodiversity.
 
 ## Fellowships and Awards
@@ -26,17 +26,20 @@ Center for Population Biology, University of California, Davis
 - Phylogeny and Macroevolution (EVE 103, UC Davis). Teaching assistant. 2012, 2016, 2018.
 	- (2016) Awarded Outstanding Graduate Student Teaching Award.
 
-## Invited Presentations
+<!-- ## Invited Presentations
 
 <ol reversed>
 	<li>
 		<b>May, M. R.</b> and Rothfels, C. J. (2021). Mistreating birth-death models as priors in phylogenetic analysis compromises our ability to compare models. Botanical Society of America Conference.
 	</li>
-</ol>
+</ol> -->
 
 ## Presentations
 
 <ol reversed>
+	<li>
+		<b>May, M. R.</b> and Rothfels, C. J. (2021). Mistreating birth-death models as priors in phylogenetic analysis compromises our ability to compare models. Botanical Society of America Conference.
+	</li>
 	<li>
 		<b>May, M. R.</b>, Contreras, D. L., Sundue, M. A., Nagalingum, N. S., Looy, C. V., & Rothfels, C. J. (2021). Inferring the Total-Evidence Timescale of Marattialean Fern Evolution in the Face of Model Sensitivity. Joint Annual Evolution Meeting.
 	</li>
@@ -219,7 +222,7 @@ Center for Population Biology, University of California, Davis
 	%} </li>
 </ol>
 
-## References
+<!-- ## References
 
 <b>Brian R. Moore (PhD advisor)</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Evolution and Ecology<br>
@@ -234,4 +237,4 @@ Center for Population Biology, University of California, Davis
 <b>Bruce Rannala (Postdoc advisor)</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Integrative Biology, University Herbarium<br>
 &nbsp;&nbsp;&nbsp;&nbsp;University of California, Berkeley<br>
-&nbsp;&nbsp;&nbsp;&nbsp;crothfels at berkeley dot edu
+&nbsp;&nbsp;&nbsp;&nbsp;crothfels at berkeley dot edu -->
