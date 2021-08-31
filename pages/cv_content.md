@@ -5,65 +5,16 @@ Center for Population Biology, University of California, Davis
 <div style="text-align: right">3040 Valley Life Sciences Building #3140</div>
 <div style="text-align: right">Berkeley, CA 94720-3140</div>
 <div style="text-align: right" class="button" onclick="location.href='mailto:mikeryanmay@gmail.com';">Email: mikeryanmay at gmail dot com</div>
+<div style="text-align: right">mikeryanmay.github.io</div>
 
-## Education and Appointments
+## <u>Education and Appointments</u>
 
-- 2020–present. UC Davis. Postdoctoral scholar.
-- 2019–present. UC Berkeley. Postdoctoral scholar.
-- 2011–2019. UC Davis. PhD, Population Biology.
-- 2008–2011. UC Davis. B.S., (Highest Honors), Evolution, Ecology and Biodiversity.
+| <nobr>2020–present</nobr> | UC Davis. Postdoctoral scholar
+| <nobr>2019–present</nobr> | UC Berkeley. Postdoctoral scholar
+| <nobr>2011–2019</nobr>    | PhD, Population Biology
+| <nobr>2008–2010</nobr>    | UC Davis. B.S., (Highest Honors), Evolution, Ecology and Biodiversity; Geology
 
-## Fellowships and Awards
-
-- UC Davis 2016–2017 Outstanding Graduate Student Teaching Award
-- NSF GRFP Predoctoral Fellowship 2011–2016
-
-## Teaching Experience
-
-- Stay-At-Home RevBayes Workshop. Instructor, 2021.
-- Madrid Phylogenetics Workshop. Instructor, 2018–present
-- Bodega Applied Phylogenetics Workshop. Organizer, teaching assistant, and instructor. 2013–present
-- Phylogeny and Macroevolution (EVE 103, UC Davis). Teaching assistant. 2012, 2016, 2018.
-	- (2016) Awarded Outstanding Graduate Student Teaching Award.
-
-<!-- ## Invited Presentations
-
-<ol reversed>
-	<li>
-		<b>May, M. R.</b> and Rothfels, C. J. (2021). Mistreating birth-death models as priors in phylogenetic analysis compromises our ability to compare models. Botanical Society of America Conference.
-	</li>
-</ol> -->
-
-## Presentations
-
-<ol reversed>
-	<li>
-		<b>May, M. R.</b> and Rothfels, C. J. (2021). Mistreating birth-death models as priors in phylogenetic analysis compromises our ability to compare models. Botanical Society of America Conference.
-	</li>
-	<li>
-		<b>May, M. R.</b>, Contreras, D. L., Sundue, M. A., Nagalingum, N. S., Looy, C. V., & Rothfels, C. J. (2021). Inferring the Total-Evidence Timescale of Marattialean Fern Evolution in the Face of Model Sensitivity. Joint Annual Evolution Meeting.
-	</li>
-	<li>
-		<b>May, M. R.</b> & Moore, B. R. (2017). A Bayesian method for inferring discrete-state dependent rates of continuous- trait evolution. Joint Annual Evolution Meeting; Portland, Oregon.
-	</li>
-	<li>
-		<b>May, M. R.</b>, Moore, B. R., Höhna, S., Huelsenbeck, J. P., & Rannala, B. (2016). Towards a correct Bayesian method for inferring lineage-specific rates of speciation and extinction. Joint Annual Evolution Meeting; Austin, Texas.
-	</li>
-	<li>
-		<b>May, M. R.</b> (2016). Problems and solutions for inferring lineage-specific rates of speciation and, extinction. Center for Population Biology seminar series; UC Davis.	
-	</li>
-	<li>
-		<b>May, M. R.</b> & Moore, B. R. (2014). Inferring lineage-specific rates of continuous-trait evolution. Botanical Society of America Conference; Boise, Idaho.
-	</li>
-	<li>
-		<b>May, M. R.</b> (2013). Mostly Bayesian methods for inferring heterogeneous evolutionary processes across phylogenies. Center for Population Biology seminar series; UC Davis.	
-	</li>
-	<li>
-		<b>May, M. R.</b> & Moore, B. R., (2013). Assessing the reliability of MEDUSA using simulation. Joint Annual Evolution Meeting; Snowbird, Utah.
-	</li>
-</ol>
-
-## Publications
+## <u>Publications</u>
 
 <ol reversed>
 	<li> {% include citation.html
@@ -84,11 +35,26 @@ Center for Population Biology, University of California, Davis
 		year    = "2021"
 	%} </li>
 	<li> {% include citation.html
-		authors = "Höhna, S., Freyman, W. A., Nolen, Z., Huelsenbeck, J. P., <b>May, M. R. </b>, & Moore, B. R."
+		authors = "Höhna, S., Freyman, W. A., Nolen, Z., Huelsenbeck, J. P., <b>May, M. R.</b>, & Moore, B. R."
 		title   = "A Bayesian approach for estimating branch-specific speciation and extinction rates"
 		journal = "bioRxiv"
 		biorxiv = "true"
 		doi     = "https://www.biorxiv.org/content/10.1101/2021.07.12.452074v1"
+		year    = "2021"
+	%} </li>
+	<li> {% include citation.html
+		authors = "Gao, J., <b>May, M. R.</b>, Rannala, B. & Moore, B. R."
+		title   = "Phylodynamic insights on the early spread of the COVID-19 pandemic and the efficacy of intervention measures"
+		journal = "bioRxiv"
+		biorxiv = "true"
+		doi     = "https://doi.org/10.1101/2021.05.01.442286"
+		year    = "2021"
+	%} </li>
+	<li> {% include citation.html
+		authors = "Barido-Sottani, J., Justison, J. A., Borges, Rui., Brown, J. M., Dismukes, W., do Rosario, P., ..., <b>May, M. R.</b> & Heath, T. A."
+		title   = "Lessons learned from organizing and teaching virtual phylogenetics workshops"
+		journal = "In review"
+		biorxiv = "false"
 		year    = "2021"
 	%} </li>
 	<li> {% include citation.html
@@ -222,19 +188,67 @@ Center for Population Biology, University of California, Davis
 	%} </li>
 </ol>
 
-<!-- ## References
+## <u>Presentations</u>
 
-<b>Brian R. Moore (PhD advisor)</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Department of Evolution and Ecology<br>
-&nbsp;&nbsp;&nbsp;&nbsp;University of California, Davis<br>
-&nbsp;&nbsp;&nbsp;&nbsp;brianmoore at ucdavis dot edu
+<ol reversed>
+	<li>
+		<b>May, M. R.</b> and Rothfels, C. J. (2021). Mistreating birth-death models as priors in phylogenetic analysis compromises our ability to compare models. Botanical Society of America Conference. <i>(Invited.)</i>
+	</li>
+	<li>
+		<b>May, M. R.</b>, Contreras, D. L., Sundue, M. A., Nagalingum, N. S., Looy, C. V., & Rothfels, C. J. (2021). Inferring the total-evidence timescale of marattialean fern evolution in the face of model sensitivity. Joint Annual Evolution Meeting.
+	</li>
+	<li>
+		<b>May, M. R.</b> & Moore, B. R. (2017). A Bayesian method for inferring discrete-state dependent rates of continuous-trait evolution. Joint Annual Evolution Meeting; Portland, Oregon.
+	</li>
+	<li>
+		<b>May, M. R.</b>, Moore, B. R., Höhna, S., Huelsenbeck, J. P., & Rannala, B. (2016). Towards a correct Bayesian method for inferring lineage-specific rates of speciation and extinction. Joint Annual Evolution Meeting; Austin, Texas.
+	</li>
+	<li>
+		<b>May, M. R.</b> (2016). Problems and solutions for inferring lineage-specific rates of speciation and, extinction. Center for Population Biology seminar series; UC Davis.	
+	</li>
+	<li>
+		<b>May, M. R.</b> & Moore, B. R. (2014). Inferring lineage-specific rates of continuous-trait evolution. Botanical Society of America Conference; Boise, Idaho.
+	</li>
+	<li>
+		<b>May, M. R.</b> (2013). Mostly Bayesian methods for inferring heterogeneous evolutionary processes across phylogenies. Center for Population Biology seminar series; UC Davis.	
+	</li>
+	<li>
+		<b>May, M. R.</b> & Moore, B. R., (2013). Assessing the reliability of MEDUSA using simulation. Joint Annual Evolution Meeting; Snowbird, Utah.
+	</li>
+</ol>
 
-<b>Carl J. Rothfels (Postdoc advisor)</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Department of Evolution and Ecology<br>
-&nbsp;&nbsp;&nbsp;&nbsp;University of California, Davis<br>
-&nbsp;&nbsp;&nbsp;&nbsp;brannala at ucdavis dot edu
+## <u>Fellowships and Awards</u>
 
-<b>Bruce Rannala (Postdoc advisor)</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Department of Integrative Biology, University Herbarium<br>
-&nbsp;&nbsp;&nbsp;&nbsp;University of California, Berkeley<br>
-&nbsp;&nbsp;&nbsp;&nbsp;crothfels at berkeley dot edu -->
+- UC Davis Outstanding Graduate Student Teaching Award (2017)
+- NSF GRFP Predoctoral Fellowship (2011–2016)
+
+<!-- ## <u>Contributions to Funded Research</u>
+
+| <nobr>2020–present</nobr> | <nobr>NIH</nobr>             | (PI: B. Rannala).
+| <nobr>2019–present</nobr> | <nobr>NSF DEB 1754705</nobr> | The Foundation of Terrestrial Life: Inferring a Total-Evidence Timeline of Vascular Plant Evolution (PI: C. J. Rothfels). -->
+
+## <u>Societies and Service</u>
+
+<p style="margin-left: 2em;text-indent: -2em;">
+	<b>Society Memberships:</b> <i>Society of Systematic Biologist</i>, <i>Society for the Study of Evolution</i>, <i>Botanical Society of America</i>.
+</p>
+
+<p style="margin-left: 2em;text-indent: -2em;">
+	<b>Peer Review for:</b> <i>Systematic Biology</i>, <i>Proceedings of the National Academy of Sciences</i>, <i>Proceedings of the Royal Society B</i>, <i>Methods in Ecology and Evolution</i>, <i>Frontiers Plant Science</i>, <i>Functional Ecology</i>, <i>Molecular Biology and Evolution</i>, <i>PLoS One</i>, <i>Peer J</i>.
+</p>
+
+## <u>Teaching Experience</u>
+
+| 2021 | Instructor for Stay-At-Home RevBayes Workshop.
+| 2019 | Instructor for Madrid Phylogenetics Workshop.
+| 2019 | Organizer and instructor for Bodega Applied Phylogenetics Workshop.
+| 2018 | Instructor for Madrid Phylogenetics Workshop.
+| 2018 | Teaching assistant for EVE 103: Phylogeny and Macroevolution (UC Davis).
+| 2017 | Organizer and instructor for Bodega Applied Phylogenetics Workshop.
+| 2016 | Teaching assistant for EVE 103: Phylogeny and Macroevolution (UC Davis). _(Awarded UC Davis Outstanding Graduate Student Teaching Award 2017)_
+| 2015 | Organizer and teaching assistant for Bodega Applied Phylogenetics Workshop.
+| 2014 | Organizer and teaching assistant for Bodega Applied Phylogenetics Workshop.
+| 2013 | Organizer and teaching assistant for Bodega Applied Phylogenetics Workshop.
+| 2012 | Teaching assistant for EVE 103: Phylogeny and Macroevolution (UC Davis).
+
+<!-- ## <u>Mentorship</u> -->

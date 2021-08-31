@@ -1,11 +1,12 @@
 <div>
+	{{include.authors}} ({{include.year}}). <i>{{include.title}}</i>.
 	{% if include.inpress %}
-		{{include.authors}} ({{include.year}}). {{include.title}}. <i>{{include.journal}}</i>, in press.		
+		 <u>{{include.journal}}</u>, in press.		
 	{% else %}
 		{% if include.biorxiv %}
-			{{include.authors}} ({{include.year}}). {{include.title}}. <i>{{include.journal}}</i>.	
+			 <u>{{include.journal}}</u>.	
 		{% else %}
-			{{include.authors}} ({{include.year}}). {{include.title}}. <i>{{include.journal}}</i>, {{include.volume}}({{include.issue}}), {{include.pages}}.		
+			 <u>{{include.journal}}</u> {{include.volume}}({{include.issue}}), {{include.pages}}.		
 		{% endif %}
 	{% endif %}
 	{% if include.doi %}
