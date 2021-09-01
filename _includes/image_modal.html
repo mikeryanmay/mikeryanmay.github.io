@@ -1,12 +1,13 @@
 <figure class="image" style="display: table; margin-left:4%;">
   
-  <!-- create the image -->  
-  <img id="myImg"
+  <!-- create the image --> 
+  <img class="hoverimg"
+       id="{{ include.id }}"
   	   src="{{ include.url | relative_url }}"
   	   alt="{{ include.description }}" 
 	   width="{{ include.dim | default: 100% }}"
 	   height="{{ include.dim | default: 100% }}"
-	   style="display: block; margin: auto">
+	   style="display: block; margin: auto;">
   <figcaption style="display: table-caption; caption-side: bottom; font-style: italic; font-size: smaller">{{ include.description }}</figcaption>
   
   <!-- The Modal -->
@@ -21,8 +22,31 @@
   <!-- Modal Caption (Image Text) -->
   <div id="caption"></div>
   
-</div>
+  </div>
 
-<script src="../../../assets/js/modal.js"></script>
-  
+<!-- <script src="../../../assets/js/modal.js"></script> -->
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("{{ include.id }}");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
 </figure>

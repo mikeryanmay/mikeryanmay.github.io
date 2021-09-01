@@ -15,33 +15,12 @@ One of my research goals is to understand the impact of different modeling choic
 Together with my colleagues, I explored the impact of model specification on total-evidence-based divergence-time estimates in the marattialean ferns over a large model space, showing that our assumptions about how lineages diversify (speciate and go extinct) have a much larger impact on phylogenetic estimates than do our assumptions about how morphological characters evolve.
 This work highlights the need for careful evaluation of the lineage diversification model.
  
-<!-- Trigger the Modal -->
 {% include image_modal.html 
 	url="/assets/img/trees.png" 
 	description="Marattialean phylogeny under different tree models: a uniform model (left), a fossilized birth-death model with constant speciation, extinction, and fossilization rates (middle), and a birth-death process where the speciation and extinction rates vary over time (right)."
 	dim="100%"
+	id="treeplot"
 %}
-
-<!-- <img id="myImg" src="/assets/img/trees.png" alt="Snow" style="width:100%"> -->
-
-<!-- The Modal -->
-<!-- <div id="myModal" class="modal"> -->
-
- <!-- The Close Button -->
- <!-- <span class="close">&times;</span> -->
-
- <!-- Modal Content (The Image) -->
- <!-- <img class="modal-content" id="img01"> -->
-
- <!-- Modal Caption (Image Text) -->
- <!-- <div id="caption"></div> -->
-<!-- </div> -->
-
-<!-- {% include image.html 
-	url="/assets/img/figure_3.jpg" 
-	description="Lineage-through-time curves (the number of lineages in the tree over time) are similar among morphological transition (relative rates of change among states, left) and morphological clock (relative rates among lineages, middle) model, but very different among tree models (right)."
-	dim="100%"
-%} -->
 
 Our study of the marattialean ferns demonstrates that the choice of tree prior can have a large impact on divergence-time estimates, so careful model choice is an important aspect of total-evidence dating.
 However, our study also a counterintuitive result: despite the fact that most of our fossils come from the Pennsylvanian period, allowing fossilization rates to vary over time always reduced model fit.
@@ -49,11 +28,13 @@ In followup work, I used Bayesian theory and simulation to show that this was du
 While it has no impact on parameter estimates for a given model, failing to treat the probability of the samples as part of the likelihood function compromises our ability to compare among tree models.
 This exploration allows us to predict the magnitude of the error, and to propose remedies (some more practical than others).
 
-{% include image.html 
-	url="/assets/img/figure_1.png" 
-	description="Left) Phylogenetic processes produce trees with character changes (colors) and samples (labeled dots). Middle) We collect taxon samples (grey fiddleheads) before collecting character data; at this stage, we could use these samples as data to infer parameters of a diversification process. Right) Finally, we score the samples for character data. Traditionally, phylogeneticists treat the probability of the character data (right) as part of the likelihood function, but not the probability of the taxon data (middle)."
-	dim="100%"
+{% include image_modal.html 
+   url="/assets/img/figure_1.png" 
+   description="Left) Phylogenetic processes produce trees with character changes (colors) and samples (labeled dots). Middle) We collect taxon samples (grey fiddleheads) before collecting character data; at this stage, we could use these samples as data to infer parameters of a diversification process. Right) Finally, we score the samples for character data. Traditionally, phylogeneticists treat the probability of the character data (right) as part of the likelihood function, but not the probability of the taxon data (middle)."
+   dim="100%"
+   id="dataplot"
 %}
+
 
 #### Selected publications on total-evidence dating
 
@@ -88,10 +69,11 @@ However, the signature of mass-extinction events on molecular phylogenies can be
 Failure to accommodate diversification-rate variation may therefore cause us to make errors in inferring the number, timing, and magnitude of mass-extinction events.
 To tackle this problem, I developed a Bayesian method, CoMET, that allows us to robustly infer the impact of mass-extinction events against a background of variation in rates of speciation and extinction.
 
-{% include image.html 
+{% include image_modal.html 
 	url="/assets/img/mass_extinction_time.jpg" 
 	description="Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 <u>PNAS</u>."
 	dim="100%"
+	id="comet"
 %}
 
 #### Selected publications on lineage diversification
@@ -144,10 +126,11 @@ However, we expect rates of trait evolution to vary for many reasons; even withi
 I developed a Bayesian method for inferring how rates of continuous-trait evolution vary according to a discrete trait of interest, while controlling for background sources of rate variation.
 I implemented this method, [MuSSCRat, in the Bayesian phylogenetic software RevBayes](https://revbayes.github.io/tutorials/cont_traits/state_dependent_bm.html).
 
-{% include image.html 
+{% include image_modal.html 
 	url="/assets/img/rate_comparison.png" 
 	description="Posterior distribution of rate of evolution in reefs divided by rate of evolution off of reefs for trophic characters of Haemulid (grunt) fishes. Yellow density is for the model without accommodating background-rate variation; blue is for the model that accommodates background-rate variation. Failing to accommodate background-rate variation leads to a 5-fold overestimate of this ratio."
 	dim="65%"
+	id="musscrat"
 %}
 
 #### Selected publications on character evolution

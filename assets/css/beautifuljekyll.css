@@ -1013,14 +1013,14 @@ pre {
 
 
 /* Style the Image Used to Trigger the Modal */
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+.hoverimg {
+	cursor: pointer;
+	transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
-
+.hoverimg:hover {
+	opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
@@ -1041,7 +1041,9 @@ pre {
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
+  width: auto;
+  max-width: 80%;
+  max-height: 80%;
   /* max-width: 700px; */
 }
 
