@@ -1,0 +1,3 @@
+[submodule "pages/cv"]
+	path = pages/cv
+	url = https://github.com/mikeryanmay/cv.git
