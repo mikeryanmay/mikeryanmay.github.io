@@ -1,0 +1,97 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=86;
+	Taxlabels
+		Acaulangium_bulbaceum
+		Angiopteris_boninensis
+		Angiopteris_evecta
+		Angiopteris_itoi
+		Angiopteris_lygodiifolia
+		Angiopteris_smithii
+		Angiopteris_tonkinensis
+		Araiangium_pygmaeum
+		Botryopteris_tridentata
+		Buritiranopteris_costata
+		Christensenia_aesculifolia
+		Convexocarpus_distichus
+		Corynepteris_involucrata
+		Cyathea_multiflora
+		Danaea_elliptica
+		Danaea_grandifolia
+		Danaea_leprieurii
+		Danaea_nodosa
+		Danaeites_rigida
+		Danaeopsis_fecunda
+		Diplopterygium_glaucum
+		Dipteris_conjugata
+		Eoangiopteris_goodii
+		Escapia_christensenioides
+		Eupodium_kaulfussii
+		Eupodium_laeve
+		Floratheca_apokalyptica
+		Gemellitheca_saudica
+		Grammatopteris_freitasii
+		Grandeuryella_renaultii
+		Hopetedia_praetermissa
+		Hymenophyllum_holochilum
+		Marattia_aganzhenensis
+		Marattia_alata
+		Marattia_anglica
+		Marattia_asiatica
+		Marattia_douglasii
+		Marattia_excavata
+		Marattia_laxa
+		Marattiaceae_indet_Vera_2016
+		Marattiopsis_crenulatus
+		Marattiopsis_patagonica
+		Marattiopsis_vodrazkae
+		Matonia_pectinata
+		Millaya_tularosana
+		Osmunda_regalis
+		Osmundastrum_cinnamomeum
+		Pekinopteris_auriculata
+		Ptisana_attenuata
+		Ptisana_fraxinea
+		Ptisana_melanesica
+		Ptisana_mertensiana
+		Ptisana_oreades
+		Ptisana_pellucida
+		Ptisana_purpurascens
+		Ptisana_squamosa
+		Ptisana_sylvatica
+		Qasimia_schyfsmae
+		Radstockia_kidstonii
+		Rothwellopteris_pecopteroides
+		Saccoloma_inaequale
+		Schizaea_elegans
+		Scolecopteris_alta_A
+		Scolecopteris_antarctica_L
+		Scolecopteris_calicifolia_L
+		Scolecopteris_charma_O
+		Scolecopteris_dispora
+		Scolecopteris_fragilis_L
+		Scolecopteris_guizhouensis
+		Scolecopteris_illinoensis
+		Scolecopteris_incisifolia_L
+		Scolecopteris_iowensis_O
+		Scolecopteris_latifolia_L
+		Scolecopteris_majopsis_O
+		Scolecopteris_mamayi_L
+		Scolecopteris_minor_M
+		Scolecopteris_monothrix_L
+		Scolecopteris_nigra_A
+		Scolecopteris_oliveri_O
+		Scolecopteris_parkerensis_L
+		Scolecopteris_parvifolia
+		Scolecopteris_saharaensis_M
+		Scolecopteris_shadensis
+		Scolecopteris_shanxiensis
+		Scolecopteris_vallumii_L
+		Szea_sinensis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R]((((((((((((((((((Ptisana_melanesica[&index=72]:3.661825,Ptisana_squamosa[&index=71]:3.661825)[&index=87,posterior=0.707373,ccp=0.711864,age_95%_HPD={0.868912,6.87166}]:1.604639,(Ptisana_pellucida[&index=70]:4.228070,Ptisana_sylvatica[&index=73]:4.228070)[&index=88,posterior=0.400461,ccp=0.711864,age_95%_HPD={1.44182,7.65911}]:1.038394)[&index=89,posterior=0.163134,ccp=0.160209,age_95%_HPD={2.72182,9.24041}]:0.471474,Ptisana_mertensiana[&index=74]:5.737939)[&index=90,posterior=0.880184,ccp=0.880184,age_95%_HPD={2.87052,10.7085}]:1.196375,Ptisana_attenuata[&index=75]:6.934314)[&index=91,posterior=1.000000,ccp=1.000000,age_95%_HPD={3.5208,12.4028}]:5.104133,Ptisana_oreades[&index=69]:12.038447)[&index=92,posterior=1.000000,ccp=1.000000,age_95%_HPD={6.44726,18.9293}]:3.555538,Ptisana_fraxinea[&index=68]:15.593985)[&index=93,posterior=0.532258,ccp=0.532258,age_95%_HPD={8.54578,22.2474}]:1.868793,Ptisana_purpurascens[&index=67]:17.462778)[&index=94,posterior=1.000000,ccp=1.000000,age_95%_HPD={9.36571,24.7691}]:26.587807,(Eupodium_kaulfussii[&index=77]:6.502828,Eupodium_laeve[&index=76]:6.502828)[&index=95,posterior=1.000000,ccp=1.000000,age_95%_HPD={1.10315,14.5165}]:37.547757)[&index=96,posterior=0.896313,ccp=0.818433,age_95%_HPD={18.2529,68.4995}]:12.387699,((((((Angiopteris_evecta[&index=53]:4.844490,Angiopteris_smithii[&index=54]:4.844490)[&index=97,posterior=0.571889,ccp=0.578888,age_95%_HPD={1.90041,10.5494}]:2.081971,(Angiopteris_itoi[&index=55]:5.022339,Angiopteris_lygodiifolia[&index=56]:5.022339)[&index=98,posterior=0.411060,ccp=0.578888,age_95%_HPD={1.83656,10.6912}]:1.904122)[&index=99,posterior=0.405991,ccp=0.179209,age_95%_HPD={2.97826,14.3146}]:0.627759,Angiopteris_tonkinensis[&index=57]:7.554221)[&index=100,posterior=0.722581,ccp=0.722581,age_95%_HPD={3.19547,14.6536}]:3.640063,Angiopteris_boninensis[&index=58]:11.194284)[&index=101,posterior=1.000000,ccp=1.000000,age_95%_HPD={4.37809,20.6199}]:32.326891,Christensenia_aesculifolia[&index=52]:43.521174)[&index=102,posterior=0.717972,ccp=0.630284,age_95%_HPD={14.5354,72.5087}]:1.893223,(((Marattia_excavata[&index=66]:4.521247,Marattia_laxa[&index=61]:4.521247)[&index=103,posterior=0.817512,ccp=0.997177,age_95%_HPD={1.07013,9.85337}]:2.872859,Marattia_alata[&index=60]:7.394107)[&index=104,posterior=0.816129,ccp=0.956263,age_95%_HPD={2.67522,14.8883}]:4.062256,Marattia_douglasii[&index=59]:11.456363)[&index=105,posterior=0.853456,ccp=0.630284,age_95%_HPD={3.71046,22.0072}]:33.958035)[&index=106,posterior=0.599539,ccp=0.818433,age_95%_HPD={17.7922,71.725}]:11.023886)[&index=107,posterior=0.500000,ccp=0.492228,age_95%_HPD={27.4859,88.7522}]:27.631520,((Danaea_elliptica[&index=65]:6.596137,Danaea_leprieurii[&index=64]:6.596137)[&index=108,posterior=1.000000,ccp=1.000000,age_95%_HPD={2.13928,13.8157}]:11.414234,(Danaea_grandifolia[&index=62]:8.520453,Danaea_nodosa[&index=63]:8.520453)[&index=109,posterior=1.000000,ccp=1.000000,age_95%_HPD={2.5532,16.7997}]:9.489917)[&index=110,posterior=1.000000,ccp=0.492228,age_95%_HPD={6.80257,30.3793}]:66.059433)[&index=111,posterior=0.978341,ccp=1.000000,age_95%_HPD={42.0706,156.647}]:102.399962)Marattia_aganzhenensis[&index=112,posterior=0.487097,ccp=0.191489,age_95%_HPD={174.277,199.333},sampled_ancestor=0.558065]:30.435788,(Marattiaceae_indet_Vera_2016[&index=46,sampled_ancestor=0.017051,age_95%_HPD={113.123,124.475}]:89.705323,Marattiopsis_patagonica[&index=49,sampled_ancestor=0.018894,age_95%_HPD={177.278,188.498}]:25.476986)[&index=113,posterior=0.049770,ccp=0.212766,age_95%_HPD={188.104,232.01}]:8.250093)[&index=114,posterior=0.021659,ccp=0.017341,age_95%_HPD={199.316,235.871}]:17.910689,(((Marattia_anglica[&index=47,sampled_ancestor=0.107834,age_95%_HPD={166.464,173.971}]:26.731750,Marattiopsis_vodrazkae[&index=48,sampled_ancestor=0.000461,age_95%_HPD={86.4972,89.7593}]:109.013707)[&index=115,posterior=0.163594,ccp=0.396476,age_95%_HPD={169.937,229.467}]:12.396871,Marattia_asiatica[&index=78,sampled_ancestor=0.072350,age_95%_HPD={176.023,201.243}]:20.165800)[&index=116,posterior=0.104608,ccp=0.164286,age_95%_HPD={189.859,231.719}]:8.143027,Marattiopsis_crenulatus[&index=50,sampled_ancestor=0.489401,age_95%_HPD={201.562,208.409}]:12.730981)[&index=117,posterior=0.064516,ccp=0.014038,age_95%_HPD={203.59,233.405}]:17.166095)[&index=118,posterior=0.558065,ccp=0.988000,age_95%_HPD={209.28,263.496}]:36.091566)Qasimia_schyfsmae[&index=119,posterior=0.115207,ccp=0.019048,age_95%_HPD={268.872,272.712},sampled_ancestor=0.468203]:65.601060,((Escapia_christensenioides[&index=41,sampled_ancestor=0.000922,age_95%_HPD={133.233,139.738}]:147.745177,Rothwellopteris_pecopteroides[&index=83,sampled_ancestor=0.299078,age_95%_HPD={252.174,258.994}]:28.664227)[&index=120,posterior=0.017051,ccp=0.666667,age_95%_HPD={257.488,334.167}]:44.258413,Radstockia_kidstonii[&index=81,sampled_ancestor=0.005530,age_95%_HPD={306.96,311.141}]:19.412091)[&index=121,posterior=0.002765,ccp=0.019048,age_95%_HPD={317.442,332.111}]:8.067996)[&index=122,posterior=0.048387,ccp=0.046053,age_95%_HPD={317.228,358.392}]:18.288525,((Danaeites_rigida[&index=40,sampled_ancestor=0.000461,age_95%_HPD={295.261,298.898}]:31.623561,Danaeopsis_fecunda[&index=86,sampled_ancestor=0.000461,age_95%_HPD={201.367,208.066}]:124.003517)[&index=123,posterior=0.040092,ccp=0.200000,age_95%_HPD={307.452,346.445}]:14.555656,(Eoangiopteris_goodii[&index=84,sampled_ancestor=0.005991,age_95%_HPD={295.555,303.654}]:32.472034,Millaya_tularosana[&index=82,sampled_ancestor=0.000461,age_95%_HPD={283.003,298.899}]:39.173612)[&index=124,posterior=0.342396,ccp=0.200000,age_95%_HPD={310.618,354.044}]:11.254069)[&index=125,posterior=0.013825,ccp=0.046053,age_95%_HPD={332.581,354.593}]:11.474081)[&index=126,posterior=0.070046,ccp=0.056552,age_95%_HPD={333.564,389.21}]:29.482078,(((((((((Buritiranopteris_costata[&index=36,sampled_ancestor=0.050691,age_95%_HPD={260.041,298.776}]:14.277072,Gemellitheca_saudica[&index=35,sampled_ancestor=0.031797,age_95%_HPD={252.013,271.746}]:35.538009)[&index=127,posterior=0.545622,ccp=0.333333,age_95%_HPD={267.487,336.083}]:0.000001,Scolecopteris_guizhouensis[&index=43,sampled_ancestor=0.006912,age_95%_HPD={251.915,254.038}]:44.243218)[&index=128,posterior=0.055300,ccp=0.107143,age_95%_HPD={268.173,339.836}]:35.464278,(Scolecopteris_latifolia_L[&index=32,sampled_ancestor=0.022120,age_95%_HPD={298.906,306.55}]:22.180636,Scolecopteris_shanxiensis[&index=44,sampled_ancestor=0.010599,age_95%_HPD={290.908,298.898}]:29.736849)[&index=129,posterior=0.043318,ccp=0.107143,age_95%_HPD={308.06,340.963}]:7.785802)[&index=130,posterior=0.012903,ccp=0.200000,age_95%_HPD={319.498,347.121}]:3.588923,(Scolecopteris_antarctica_L[&index=25,sampled_ancestor=0.004608,age_95%_HPD={237.88,247.197}]:82.431949,Scolecopteris_monothrix_L[&index=31,sampled_ancestor=0.003687,age_95%_HPD={298.956,306.488}]:22.987786)[&index=131,posterior=0.071429,ccp=0.200000,age_95%_HPD={306.328,338.137}]:10.776590)[&index=132,posterior=0.002304,ccp=0.285714,age_95%_HPD={337.199,339.55}]:2.174867,Scolecopteris_calicifolia_L[&index=33,sampled_ancestor=0.011060,age_95%_HPD={307.004,314.651}]:27.829449)[&index=133,posterior=0.003226,ccp=0.065217,age_95%_HPD={332.562,345.11}]:2.728954,(Scolecopteris_majopsis_O[&index=39,sampled_ancestor=0.041014,age_95%_HPD={307,314.644}]:18.461386,Scolecopteris_mamayi_L[&index=34,sampled_ancestor=0.044240,age_95%_HPD={307.006,314.776}]:18.047819)[&index=134,posterior=0.151152,ccp=0.065217,age_95%_HPD={316.261,342.347}]:12.172625)[&index=135,posterior=0.021198,ccp=0.187500,age_95%_HPD={330.899,352.894}]:2.742457,(Scolecopteris_fragilis_L[&index=38,sampled_ancestor=0.017972,age_95%_HPD={307.024,314.702}]:19.804276,Scolecopteris_parkerensis_L[&index=37,sampled_ancestor=0.000461,age_95%_HPD={298.922,306.442}]:28.051457)[&index=136,posterior=0.230876,ccp=0.187500,age_95%_HPD={312.832,347.305}]:13.409140)[&index=137,posterior=0.051613,ccp=0.250000,age_95%_HPD={333.925,357.872}]:15.817279,((((Acaulangium_bulbaceum[&index=19,sampled_ancestor=0.004147,age_95%_HPD={303.706,306.831}]:27.875672,Scolecopteris_illinoensis[&index=17,sampled_ancestor=0.002304,age_95%_HPD={298.9,306.44}]:30.622448)[&index=138,posterior=0.232719,ccp=0.136364,age_95%_HPD={312.586,350.917}]:8.917144,(Scolecopteris_nigra_A[&index=18,sampled_ancestor=0.003687,age_95%_HPD={307.001,314.66}]:26.145265,Scolecopteris_parvifolia[&index=16,sampled_ancestor=0.001382,age_95%_HPD={298.909,306.492}]:34.210635)[&index=139,posterior=0.061751,ccp=0.136364,age_95%_HPD={319.284,352.097}]:5.197013)[&index=140,posterior=0.030415,ccp=0.142857,age_95%_HPD={328.626,353.43}]:2.470919,((Grandeuryella_renaultii[&index=80,sampled_ancestor=0.001843,age_95%_HPD={303.401,305.735}]:34.002107,Scolecopteris_alta_A[&index=42,sampled_ancestor=0.042857,age_95%_HPD={315.216,322.624}]:20.108286)[&index=141,posterior=0.083410,ccp=0.232877,age_95%_HPD={324.161,355.909}]:5.628670,Scolecopteris_oliveri_O[&index=79,sampled_ancestor=0.003226,age_95%_HPD={295.198,298.898}]:47.147417)[&index=142,posterior=0.033641,ccp=0.142857,age_95%_HPD={327.451,359.971}]:0.305670)[&index=143,posterior=0.003226,ccp=1.000000,age_95%_HPD={339.787,353.669}]:0.000001,(((Scolecopteris_dispora[&index=28,sampled_ancestor=0.006912,age_95%_HPD={307.053,314.663}]:13.541907,Scolecopteris_minor_M[&index=30,sampled_ancestor=0.000922,age_95%_HPD={298.931,306.541}]:21.559021)[&index=144,posterior=0.171889,ccp=0.337596,age_95%_HPD={310.834,336.939}]:7.992847,Scolecopteris_saharaensis_M[&index=29,sampled_ancestor=0.001843,age_95%_HPD={307.076,314.549}]:21.913587)[&index=145,posterior=0.360369,ccp=0.154661,age_95%_HPD={319.259,346.664}]:8.015940,(Scolecopteris_incisifolia_L[&index=26,sampled_ancestor=0.016590,age_95%_HPD={307.005,314.58}]:23.268213,Scolecopteris_vallumii_L[&index=27,age_95%_HPD={307.002,314.695}]:23.166076)[&index=146,posterior=0.169585,ccp=0.154661,age_95%_HPD={320.776,348.048}]:6.368734)[&index=147,posterior=0.217512,ccp=1.000000,age_95%_HPD={326.827,355.085}]:4.229505)[&index=148,posterior=0.000461,ccp=0.250000,age_95%_HPD={344.551,344.551}]:15.263424)[&index=149,posterior=0.001843,ccp=0.008197,age_95%_HPD={349.264,355.855}]:4.482785,((((Scolecopteris_charma_O[&index=21,sampled_ancestor=0.002304,age_95%_HPD={299.113,306.744}]:23.778305,Scolecopteris_iowensis_O[&index=23,sampled_ancestor=0.082488,age_95%_HPD={307.011,314.643}]:15.971445)[&index=150,posterior=0.285253,ccp=0.156425,age_95%_HPD={311.502,340.945}]:3.206592,Convexocarpus_distichus[&index=22,sampled_ancestor=0.001843,age_95%_HPD={274.053,283.5}]:50.513736)[&index=151,posterior=0.164977,ccp=0.190184,age_95%_HPD={311.896,345.265}]:10.061755,(Araiangium_pygmaeum[&index=24,sampled_ancestor=0.006452,age_95%_HPD={303.7,306.815}]:25.824361,Scolecopteris_shadensis[&index=20,sampled_ancestor=0.001382,age_95%_HPD={298.92,306.474}]:28.422410)[&index=152,posterior=0.178802,ccp=0.190184,age_95%_HPD={312.855,347.085}]:8.840099)[&index=153,posterior=0.150230,ccp=0.094340,age_95%_HPD={325.99,355.589}]:2.948070,Floratheca_apokalyptica[&index=85,sampled_ancestor=0.009217,age_95%_HPD={285.169,298.879}]:49.616775)[&index=154,posterior=0.024424,ccp=0.008197,age_95%_HPD={329.399,363.136}]:21.386529)[&index=155,posterior=0.056221,ccp=0.056552,age_95%_HPD={345.985,391.128}]:19.982575)[&index=156,posterior=0.334101,ccp=0.315668,age_95%_HPD={346.185,432.012}]:28.483432,(((((((((Cyathea_multiflora[&index=10]:79.192306,Saccoloma_inaequale[&index=9]:79.192306)[&index=157,posterior=1.000000,ccp=1.000000,age_95%_HPD={27.2183,152.983}]:103.831448,Schizaea_elegans[&index=8]:183.023755)[&index=158,posterior=0.950691,ccp=1.000000,age_95%_HPD={110.132,245.288}]:41.599018,Diplopterygium_glaucum[&index=7]:224.622772)[&index=159,posterior=0.234562,ccp=0.606061,age_95%_HPD={184.773,270.551}]:9.937756,(Dipteris_conjugata[&index=13]:160.366740,Matonia_pectinata[&index=14]:160.366740)[&index=160,posterior=0.912442,ccp=0.606061,age_95%_HPD={56.1185,238.288}]:74.193788)[&index=161,posterior=0.076037,ccp=0.067764,age_95%_HPD={204.859,270.691}]:7.287547,Pekinopteris_auriculata[&index=15,sampled_ancestor=0.472811,age_95%_HPD={201.458,234.375}]:26.153440)[&index=162,posterior=0.476037,ccp=1.000000,age_95%_HPD={220.429,271.677}]:24.251127)Szea_sinensis[&index=163,posterior=0.164516,ccp=0.179747,age_95%_HPD={259.522,272.263},sampled_ancestor=0.708295]:15.259179,(Hopetedia_praetermissa[&index=11,sampled_ancestor=0.824424,age_95%_HPD={227.079,236.406}]:8.035028,Hymenophyllum_holochilum[&index=12]:240.005826)[&index=164,posterior=0.153917,ccp=0.070380,age_95%_HPD={229.213,254.964}]:41.352555)[&index=165,posterior=0.910138,ccp=0.708709,age_95%_HPD={262.603,329.162}]:54.514044,Grammatopteris_freitasii[&index=2,sampled_ancestor=0.005991,age_95%_HPD={262.945,298.897}]:48.394110)[&index=166,posterior=0.153456,ccp=0.124700,age_95%_HPD={306.986,364.283}]:23.317197,(((Osmunda_regalis[&index=3]:58.761932,Osmundastrum_cinnamomeum[&index=4]:58.761932)[&index=167,posterior=1.000000,ccp=1.000000,age_95%_HPD={8.35331,132.15}]:277.586027,Corynepteris_involucrata[&index=1,sampled_ancestor=0.008295,age_95%_HPD={305.904,313.218}]:26.946684)[&index=168,posterior=0.086175,ccp=0.198718,age_95%_HPD={321.729,358.873}]:8.757592,Botryopteris_tridentata[&index=5,sampled_ancestor=0.035945,age_95%_HPD={307.017,314.605}]:34.422420)[&index=169,posterior=0.143779,ccp=0.124700,age_95%_HPD={322.398,369.38}]:14.084070)[&index=170,posterior=0.576498,ccp=0.315668,age_95%_HPD={326.593,404.583}]:53.573283)[&index=171,posterior=1.000000,age_95%_HPD={347.17,477.666}]:0.000000;
+End;

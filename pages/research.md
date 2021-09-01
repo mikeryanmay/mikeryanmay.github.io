@@ -5,16 +5,43 @@ title: Research
 
 # [Total-evidence dating](#total-evidence-dating)
 
-Total-evidence dating is an emerging approach for estimating time-calibrated phylogenies for fossil and living taxa from combined molecular and morphological datasets (Ronquist _et al._ 2011, Zhang _et al._ 2016).
-While this framework offer many advantages compared traditional methods for calibrating phylogenies (_i.e._, node dating), it requires us to specify a complex hierarchical model that describes how morphological characters evolve, how the tree evolves, and how the extinct and extant taxa are collected.
-The relative impact of these modeling choices in empirical studies is still not well understood.
-Together with my colleagues, I explored the impact of model specification on total-evidence-based divergence-time estimates in the marattialean ferns over a large model space, showing that our assumptions about the lineage diversification process (the tree model) have a much larger impact on divergence times than do our assumptions about how morphological characters evolve.
+Time-calibrated phylogenies (trees with branches measured in calendar time) are fundamental to understanding how lineages diversify and evolve over time.
+The standard method for calibrating phylogenies requires the researcher to express their belief about the age of particular clades in the form of _calibration densities_.
+Eliciting calibration densities is often very difficult because it relies on the researcher's understanding of the fossil record (and the processes that generate it) and of the relationship between fossils and extant lineages.
+Total-evidence dating is an emerging alternative for estimating time-calibrated phylogenies for fossil and living taxa from combined molecular and morphological datasets (Ronquist _et al._ 2011 <u>Syst. Biol.</u>, Zhang _et al._ 2016 <u>Syst. Biol.</u>).
+
+The strength of total-evidence dating comes from replacing potentially arbitrary calibration densities with statistical models that describe how traits evolve and how lineages diversify (and are ultimately sampled to produce the fossil record).
+One of my research goals is to understand the impact of different modeling choices on total-evidence dating.
+Together with my colleagues, I explored the impact of model specification on total-evidence-based divergence-time estimates in the marattialean ferns over a large model space, showing that our assumptions about how lineages diversify (speciate and go extinct) have a much larger impact on phylogenetic estimates than do our assumptions about how morphological characters evolve.
+This work highlights the need for careful evaluation of the lineage diversification model.
  
-{% include image.html 
+<!-- Trigger the Modal -->
+{% include image_modal.html 
+	url="/assets/img/trees.png" 
+	description="Marattialean phylogeny under different tree models: a uniform model (left), a fossilized birth-death model with constant speciation, extinction, and fossilization rates (middle), and a birth-death process where the speciation and extinction rates vary over time (right)."
+	dim="100%"
+%}
+
+<!-- <img id="myImg" src="/assets/img/trees.png" alt="Snow" style="width:100%"> -->
+
+<!-- The Modal -->
+<!-- <div id="myModal" class="modal"> -->
+
+ <!-- The Close Button -->
+ <!-- <span class="close">&times;</span> -->
+
+ <!-- Modal Content (The Image) -->
+ <!-- <img class="modal-content" id="img01"> -->
+
+ <!-- Modal Caption (Image Text) -->
+ <!-- <div id="caption"></div> -->
+<!-- </div> -->
+
+<!-- {% include image.html 
 	url="/assets/img/figure_3.jpg" 
 	description="Lineage-through-time curves (the number of lineages in the tree over time) are similar among morphological transition (relative rates of change among states, left) and morphological clock (relative rates among lineages, middle) model, but very different among tree models (right)."
 	dim="100%"
-%}
+%} -->
 
 Our study of the marattialean ferns demonstrates that the choice of tree prior can have a large impact on divergence-time estimates, so careful model choice is an important aspect of total-evidence dating.
 However, our study also a counterintuitive result: despite the fact that most of our fossils come from the Pennsylvanian period, allowing fossilization rates to vary over time always reduced model fit.
@@ -63,7 +90,7 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 
 {% include image.html 
 	url="/assets/img/mass_extinction_time.jpg" 
-	description="Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 PNAS."
+	description="Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 <u>PNAS</u>."
 	dim="100%"
 %}
 
