@@ -1013,6 +1013,14 @@ pre {
 
 
 /* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
 .hoverimg {
 	cursor: pointer;
 	transition: 0.3s;
