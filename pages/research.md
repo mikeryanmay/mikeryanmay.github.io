@@ -17,7 +17,7 @@ This work highlights the need for careful evaluation of the lineage diversificat
  
 {% include image_modal.html 
 	url="/assets/img/trees.png" 
-	description="Marattialean phylogeny under different tree models: a uniform model (left), a fossilized birth-death model with constant speciation, extinction, and fossilization rates (middle), and a birth-death process where the speciation and extinction rates vary over time (right)."
+	description="Marattialean phylogeny under different tree models: a uniform model (left), a fossilized birth-death model with constant speciation, extinction, and fossilization rates (middle), and a birth-death process where the speciation and extinction rates vary over time (right). From May et al. 2021 <u>Syst. Biol.</u>"
 	dim="100%"
 	id="treeplot"
 %}
@@ -30,7 +30,7 @@ This exploration allows us to predict the magnitude of the error, and to propose
 
 {% include image_modal.html 
    url="/assets/img/figure_1.png" 
-   description="Left) Phylogenetic processes produce trees with character changes (colors) and samples (labeled dots). Middle) We collect taxon samples (grey fiddleheads) before collecting character data; at this stage, we could use these samples as data to infer parameters of a diversification process. Right) Finally, we score the samples for character data. Traditionally, phylogeneticists treat the probability of the character data (right) as part of the likelihood function, but not the probability of the taxon data (middle)."
+   description="Left) Phylogenetic processes produce trees with character changes (colors) and samples (labeled dots). Middle) We collect taxon samples (grey fiddleheads) before collecting character data; at this stage, we could use these samples as data to infer parameters of a diversification process. Right) Finally, we score the samples for character data. Traditionally, phylogeneticists treat the probability of the character data (right) as part of the likelihood function, but not the probability of the taxon data (middle). From May and Rothfels 2021 (in review)."
    dim="100%"
    id="dataplot"
 %}
@@ -71,7 +71,7 @@ To tackle this problem, I developed a Bayesian method, CoMET, that allows us to 
 
 {% include image_modal.html 
 	url="/assets/img/mass_extinction_time.jpg" 
-	description="Posterior probability of mass-extinction times estimated by CoMET on the conifer phylogeny from Leslie et al. 2012 <u>PNAS</u>."
+	description="Posterior probability of mass-extinction times for conifers estimated by CoMET May et al. 2016 <u>MEE</u>"
 	dim="100%"
 	id="comet"
 %}
@@ -128,7 +128,7 @@ I implemented this method, [MuSSCRat, in the Bayesian phylogenetic software RevB
 
 {% include image_modal.html 
 	url="/assets/img/rate_comparison.png" 
-	description="Posterior distribution of rate of evolution in reefs divided by rate of evolution off of reefs for trophic characters of Haemulid (grunt) fishes. Yellow density is for the model without accommodating background-rate variation; blue is for the model that accommodates background-rate variation. Failing to accommodate background-rate variation leads to a 5-fold overestimate of this ratio."
+	description="Posterior distribution of rate of evolution in reefs divided by rate of evolution off of reefs for trophic characters of Haemulid (grunt) fishes. Yellow density is for the model without accommodating background-rate variation; blue is for the model that accommodates background-rate variation. Failing to accommodate background-rate variation leads to a 5-fold overestimate of this ratio. From May and Moore 2020 <u>Syst. Biol.</u>"
 	dim="65%"
 	id="musscrat"
 %}
