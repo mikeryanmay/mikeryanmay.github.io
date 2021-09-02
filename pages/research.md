@@ -154,7 +154,7 @@ I'm a developer on the RevBayes, a flexible platform for Bayesian (mostly) phylo
 Many of the methods I describe above are implemented in RevBayes.
 I contribute to and maintain many RevBayes [tutorials](https://revbayes.github.io/tutorials/), especially for models of [continuous-character evolution](https://revbayes.github.io/tutorials/cont_traits/cont_trait_intro.html).
 
-<img align="right" src="https://raw.githubusercontent.com/cmt2/RevGadgets/master/inst/hex_sticker.png" alt="Inspector RevGadget" width="300"/>
+<img align="right" src="https://raw.githubusercontent.com/cmt2/RevGadgets/master/inst/hex_sticker.png" alt="Inspector RevGadget" width="40%"/>
 
 I'm also (along with [Carrie Tribble](https://carrietribble.weebly.com/)) a lead developer on RevGadgets, an R package for visualizing and summarizing RevBayes output. Check it out on [GitHub](https://github.com/cmt2/RevGadgets)!
 
