@@ -1,16 +1,12 @@
-Department of Integrative Biology, University of California, Berkeley\
-University Herbarium, University of California, Berkeley\
 Center for Population Biology, University of California, Davis
 
-<div style="text-align: right">3040 Valley Life Sciences Building #3140</div>
-<div style="text-align: right">Berkeley, CA 94720-3140</div>
 <div style="text-align: right" class="button" onclick="location.href='mailto:mikeryanmay@gmail.com';">Email: mikeryanmay at gmail dot com</div>
 <div style="text-align: right">mikeryanmay.github.io</div>
 
 ## <u>Education and Appointments</u>
 
 | <nobr>2020–present</nobr> | UC Davis. Postdoctoral scholar
-| <nobr>2019–present</nobr> | UC Berkeley. Postdoctoral scholar
+| <nobr>2019–2021</nobr>    | UC Berkeley. Postdoctoral scholar
 | <nobr>2011–2019</nobr>    | PhD, Population Biology
 | <nobr>2008–2010</nobr>    | UC Davis. B.S., (Highest Honors), Evolution, Ecology and Biodiversity; Geology
 
@@ -24,38 +20,59 @@ Center for Population Biology, University of California, Davis
 		biorxiv = "true"
 		doi     = "https://www.biorxiv.org/content/10.1101/2021.07.12.452074v1"
 		youtube = "https://youtu.be/SWldXeWet68"
-		year    = "2021"
+		year    = "2022"
 	%} </li>
 	<li> {% include citation.html
-		authors = "Tribble, C. M., Freyman, W. A., Landis, M. J., Lim, J. Y., Barido-Sottani, J., Kopperud, B. T., Höhna, S. & <b>May, M. R.</b>"
-		title   = "RevGadgets: an R Package for visualizing Bayesian phylogenetic analyses from RevBayes"
+		authors = "Tribble, C. M., <b>May, M. R.</b>, Jackson-Gain, A., Zenil-Ferguson, R., Specht, C. D., & Rothfels, C. J."
+		title   = "Unearthing modes of climatic adaptation in underground storage organs across Liliales"
 		journal = "bioRxiv"
 		biorxiv = "true"
-		doi     = "https://www.biorxiv.org/content/10.1101/2021.05.10.443470v1"
-		year    = "2021"
-	%} </li>
-	<li> {% include citation.html
+		doi     = "https://doi.org/10.1101/2021.09.03.458928"
+		year    = "2022"
+	%} </li>	<li> {% include citation.html
 		authors = "Höhna, S., Freyman, W. A., Nolen, Z., Huelsenbeck, J. P., <b>May, M. R.</b>, & Moore, B. R."
 		title   = "A Bayesian approach for estimating branch-specific speciation and extinction rates"
 		journal = "bioRxiv"
 		biorxiv = "true"
 		doi     = "https://www.biorxiv.org/content/10.1101/2021.07.12.452074v1"
-		year    = "2021"
+		year    = "2022"
 	%} </li>
 	<li> {% include citation.html
 		authors = "Gao, J., <b>May, M. R.</b>, Rannala, B. & Moore, B. R."
-		title   = "Phylodynamic insights on the early spread of the COVID-19 pandemic and the efficacy of intervention measures"
+		title   = "PrioriTree: a utility for improving phylodynamic analyses in BEAST"
 		journal = "bioRxiv"
 		biorxiv = "true"
-		doi     = "https://doi.org/10.1101/2021.05.01.442286"
-		year    = "2021"
+		doi     = "https://doi.org/10.1093/molbev/msac159"
+		year    = "2022"
+	%} </li>
+	<li> {% include citation.html
+		authors = "Gao, J., <b>May, M. R.</b>, Rannala, B. & Moore, B. R."
+		title   = "Model Misspecification Misleads Inference of the Spatial Dynamics of Disease Outbreaks"
+		journal = "bioRxiv"
+		biorxiv = "true"
+		doi     = "https://doi.org/10.1093/molbev/msac159"
+		year    = "2022"
+	%} </li>
+	<li> {% include citation.html
+		authors = "Gao, J., <b>May, M. R.</b>, Rannala, B. & Moore, B. R."
+		title   = "New Phylogenetic Models Incorporating Interval-Specific Dispersal Dynamics Improve Inference of Disease Spread"
+		journal = "Molecular Biology and Evolution"
+		doi     = "https://doi.org/10.1093/molbev/msac159"
+		year    = "2022"
 	%} </li>
 	<li> {% include citation.html
 		authors = "Barido-Sottani, J., Justison, J. A., Borges, Rui., Brown, J. M., Dismukes, W., do Rosario, P., ..., <b>May, M. R.</b> & Heath, T. A."
 		title   = "Lessons learned from organizing and teaching virtual phylogenetics workshops"
-		journal = "In review"
-		biorxiv = "false"
-		year    = "2021"
+		journal = "Bulletin of the Society of Systematic Biologists"
+		doi     = "https://doi.org/10.1111/2041-210X.13750"
+		year    = "2022"
+	%} </li>
+	<li> {% include citation.html
+		authors = "Tribble, C. M., Freyman, W. A., Landis, M. J., Lim, J. Y., Barido-Sottani, J., Kopperud, B. T., Höhna, S. & <b>May, M. R.</b>"
+		title   = "RevGadgets: an R Package for visualizing Bayesian phylogenetic analyses from RevBayes"
+		journal = "Methods in Ecology and Evolution"
+		doi     = "https://doi.org/10.1111/2041-210X.13750"
+		year    = "2022"
 	%} </li>
 	<li> {% include citation.html
 		authors = "<b>May, M. R.</b>, Contreras, D. L., Sundue, M. A., Nagalingum, N. S., Looy, C. V., & Rothfels, C. J."
@@ -63,7 +80,6 @@ Center for Population Biology, University of California, Davis
 		journal = "Systematic Biology"
 		doi     = "https://doi.org/10.1093/sysbio/syab020"
 		youtube = "https://youtu.be/5H_u9bjn064"
-		inpress = "true"
 		year    = "2021"
 	%} </li>
 	<li> {% include citation.html
@@ -204,13 +220,13 @@ Center for Population Biology, University of California, Davis
 		<b>May, M. R.</b>, Moore, B. R., Höhna, S., Huelsenbeck, J. P., & Rannala, B. (2016). Towards a correct Bayesian method for inferring lineage-specific rates of speciation and extinction. Joint Annual Evolution Meeting; Austin, Texas.
 	</li>
 	<li>
-		<b>May, M. R.</b> (2016). Problems and solutions for inferring lineage-specific rates of speciation and, extinction. Center for Population Biology seminar series; UC Davis.	
+		<b>May, M. R.</b> (2016). Problems and solutions for inferring lineage-specific rates of speciation and, extinction. Center for Population Biology seminar series; UC Davis.
 	</li>
 	<li>
 		<b>May, M. R.</b> & Moore, B. R. (2014). Inferring lineage-specific rates of continuous-trait evolution. Botanical Society of America Conference; Boise, Idaho.
 	</li>
 	<li>
-		<b>May, M. R.</b> (2013). Mostly Bayesian methods for inferring heterogeneous evolutionary processes across phylogenies. Center for Population Biology seminar series; UC Davis.	
+		<b>May, M. R.</b> (2013). Mostly Bayesian methods for inferring heterogeneous evolutionary processes across phylogenies. Center for Population Biology seminar series; UC Davis.
 	</li>
 	<li>
 		<b>May, M. R.</b> & Moore, B. R., (2013). Assessing the reliability of MEDUSA using simulation. Joint Annual Evolution Meeting; Snowbird, Utah.

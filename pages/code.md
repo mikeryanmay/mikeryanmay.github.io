@@ -10,4 +10,4 @@ Head over to my [GitHub](https://github.com/mikeryanmay) page for examples of my
 I'm developing a standard total-evidence dating RevBayes pipeline for fitting and comparing models of character evolution and lineage diversification as demonstrated in May _et al._ 2021 (Syst. Biol.).
 You can find this workflow [here](https://github.com/mikeryanmay/marattiales_supplemental) (with Marattiales as a working example).
 
-I made a little [RevBayes prior specification widget](https://mikeryanmay.shinyapps.io/plotprior/) with RevGadgets and Rshiny.
+I made a little [RevBayes prior specification widget](https://mikeryanmay.shinyapps.io/plotprior/) with RevGadgets and Shiny.

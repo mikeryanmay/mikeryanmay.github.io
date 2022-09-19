@@ -164,9 +164,8 @@ I'm also (along with [Carrie Tribble](https://carrietribble.weebly.com/)) a lead
 	<li> {% include citation.html
 		authors = "Tribble, C. M., Freyman, W. A., Landis, M. J., Lim, J. Y., Barido-Sottani, J., Kopperud, B. T., Höhna, S. & <b>May, M. R.</b>"
 		title   = "RevGadgets: an R Package for visualizing Bayesian phylogenetic analyses from RevBayes"
-		journal = "bioRxiv"
-		biorxiv = "true"
-		doi     = "https://www.biorxiv.org/content/10.1101/2021.05.10.443470v1"
+		journal = "Methods in Ecology and Evolution"
+		doi     = "https://doi.org/10.1111/2041-210X.13750"
 		year    = "2021"
 	%} </li>
 	<li> {% include citation.html
