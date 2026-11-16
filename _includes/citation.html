@@ -1,12 +1,15 @@
+{% assign citation_issue = include.issue | default: "" | strip %}
 <div>
 	{{include.authors}} ({{include.year}}). <i>{{include.title}}</i>.
-	{% if include.inpress %}
+	{% if include.status %}
+		 <u>{{include.journal}}</u>, {{include.status}}.
+	{% elsif include.inpress %}
 		 <u>{{include.journal}}</u>, in press.		
 	{% else %}
 		{% if include.biorxiv %}
 			 <u>{{include.journal}}</u>.	
 		{% else %}
-			 <u>{{include.journal}}</u> {{include.volume}}({{include.issue}}), {{include.pages}}.		
+			 <u>{{include.journal}}</u> {{include.volume}}{% if citation_issue != "" %}({{citation_issue}}){% endif %}, {{include.pages}}.
 		{% endif %}
 	{% endif %}
 	{% if include.doi %}

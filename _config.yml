@@ -15,8 +15,11 @@ author: Michael R May
 # --- List of links in the navigation bar --- #
 navbar-links:
   Research:
+    - Transmission-enhancing mutations: "pages/research/#transmission-enhancing-mutations"
+    - TensorPhylo: "pages/research/#tensorphylo"
+    - Phylogenetic network diversification: "pages/research/#network-diversification"
     - Total-evidence dating: "pages/research/#total-evidence-dating"
-    - Lineage diversification: "pages/research/#lineage-diversification"
+    - Lineage diversification and mass-extinction: "pages/research/#lineage-diversification"
     - Character evolution: "pages/research/#character-evolution"
     - Software: "pages/research/#software-development"
   CV: "pages/cv"
